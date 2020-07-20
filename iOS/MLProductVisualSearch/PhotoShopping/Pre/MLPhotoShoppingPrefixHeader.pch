@@ -1,0 +1,47 @@
+//
+//  Copyright (c) Huawei Technologies Co., Ltd. 2020-2028. All rights reserved.
+//
+
+#ifndef MLPhotoShoppingPrefixHeader_pch
+#define MLPhotoShoppingPrefixHeader_pch
+#import "MLDocumentNavView.h"
+#import "UIImage+Helper.h"
+#import <MLProductVisionSearch/ProductVisionSearch.h>
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define kMLDocumentDeviceWidth  [UIScreen mainScreen].bounds.size.width // Screen width
+
+#define kMLDocumentDeviceHeight [UIScreen mainScreen].bounds.size.height // Screen height
+
+// Determine whether it is Liu Haiping
+#define kTTSIS_FringeScreen \
+({BOOL isFringeScreen = NO;\
+if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad) {\
+    isFringeScreen = NO;\
+}\
+CGSize size = [UIScreen mainScreen].bounds.size;\
+NSInteger notchValue = size.width / size.height * 100;\
+if (216 == notchValue || 46 == notchValue) {\
+    isFringeScreen = YES;\
+}\
+(isFringeScreen);})\
+
+#define kTTSNavBarAndStatuHeight kTTSIS_FringeScreen?88:64 // Navigation bar plus status bar height
+
+#define kTTSSafeAreaHeight kTTSIS_FringeScreen?34:0 // The height of the bottom safety zone
+
+#define kTTSGrayColor [UIColor colorWithRed:242.0/255.0 green:242.0/255.0 blue:242.0/255.0 alpha:1]
+
+
+#define kTTSWeak(value)         __weak typeof(value) weakSelf = value
+
+#define kTTSStringIsNull(string) (!string||[string isKindOfClass:[NSNull class]]||!string.length)
+
+#ifdef DEBUG
+#define NSLog(...) NSLog(__VA_ARGS__)
+#else
+#define NSLog(...){}
+#endif
+
+#endif /* MLPhotoShoppingPrefixHeader_pch */

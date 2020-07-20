@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>code</key>
+	<dict>
+		<key>code1</key>
+		<string>92EED0D7D62D8664C82F8F964B397CDA</string>
+		<key>code2</key>
+		<string>53D1CC4184672098797896820DEAB6A8</string>
+		<key>code3</key>
+		<string>5C86AEE3D9B2893C56BF936453961FFF</string>
+		<key>code4</key>
+		<string>C591B70FA93C952CEDD61F129D1AC591</string>
+	</dict>
+	<key>agcgw</key>
+	<dict>
+		<key>backurl</key>
+		<string>connect-dre.dbankcloud.cn</string>
+		<key>url</key>
+		<string>connect-dre.hispace.hicloud.com</string>
+	</dict>
+	<key>client</key>
+	<dict>
+		<key>cp_id</key>
+		<string>10086000000000200</string>
+		<key>product_id</key>
+		<string>9105385871708264713</string>
+		<key>client_id</key>
+		<string>238869883557774336</string>
+		<key>client_secret</key>
+		<string>E9607022CA674B353526D2B4D89FAE22AF5F8925EC5242270229868ADB04832C</string>
+		<key>app_id</key>
+		<string>300112957</string>
+		<key>package_name</key>
+		<string>com.huawei.hms.mlkit.vision.sample.cn</string>
+		<key>api_key</key>
+		<string>Please enter your api_key</string>
+	</dict>
+	<key>service</key>
+	<dict>
+		<key>analytics</key>
+		<dict>
+			<key>collector_url</key>
+			<string>cloudbackup.hwcloudtest.cn:6447</string>
+			<key>resource_id</key>
+			<string>p1</string>
+			<key>channel_id</key>
+			<string></string>
+		</dict>
+		<key>ml</key>
+		<dict>
+			<key>mlservice_url</key>
+			<string>Please enter your mlservice_url</string>
+		</dict>
+	</dict>
+	<key>region</key>
+	<string>DE</string>
+	<key>configuration_version</key>
+	<string>1.0</string>
+</dict>
+</plist>

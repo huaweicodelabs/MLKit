@@ -1,0 +1,6 @@
+framework module MLProductVisionSearch {
+  umbrella header "MLProductVisionSearch.h"
+
+  export *
+  module * { export * }
+}
