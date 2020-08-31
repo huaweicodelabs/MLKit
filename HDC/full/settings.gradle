@@ -1,0 +1,4 @@
+include 'FaceDemo:app'
+include 'TTSDemo:app'
+include 'ImageSegmentation:app'
+include 'SkeletonDemo:app'

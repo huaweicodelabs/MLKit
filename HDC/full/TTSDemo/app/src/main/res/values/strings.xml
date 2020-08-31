@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">TTSDemo</string>
+    <string name="chinese">Chinese</string>
+    <string name="english">English </string>
+
+    <string name="male_zh">Male-zh</string>
+    <string name="male_en">Male-en</string>
+    <string name="female_fr">Female-fr</string>
+    <string name="female_es">Female-es</string>
+    <string name="female_en">Female-en</string>
+    <string name="female_zh">Female-zh</string>
+    <string name="female_de">Female-de</string>
+    <string name="female_it">Female-it</string>
+
+    <string name="queuing_mode">Queuing Mode</string>
+    <string name="clear_mode">Clear Mode</string>
+
+    <string name="queue_add">speech</string>
+    <string name="speak_abnormal">Language and speaker do not match</string>
+    <string name="nonetwork">nonetwork</string>
+    <string name="abnormal">service is abnormal</string>
+    <string name="back">back</string>
+    <string name="replay">replay</string>
+    <string name="tts_s">Text to speech</string>
+    <string name="intro">text to speak</string>
+
+    <string name="record">Record</string>
+    <string name="str_ok">OK</string>
+    <string name="converting">Converting...</string>
+    <string name="recording">Recording...</string>
+    <string name="str_cancel">Cancel</string>
+    <string name="convert_failed">Failed:</string>
+    <string name="language">Language:</string>
+    <string name="stop_record">stop</string>
+    <string name="style">Style:</string>
+
+    <string name="mode">Play Mode:</string>
+    <string name="volume">Volume:</string>
+    <string name="speech_rate">Speech Rate:</string>
+    <string name="please_enter_text">Please enter text~</string>
+
+    <string name="release_tts">stop</string>
+    <string name="pause">pause</string>
+    <string name="resume">resume</string>
+    <string name="play">play</string>
+
+    <string name="init_progress">50%</string>
+
+    <string name="asr_mark">* This service is only available for Huawei mobile phones</string>
+
+</resources>

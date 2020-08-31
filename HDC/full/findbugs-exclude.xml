@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<FindBugsFilter>
+    <Match>
+        <Class name="com.huawei.hms.mlsdk.common.MLFrame" />
+    </Match>
+    <Match>
+        <Class name="com.huawei.hms.mlsdk.common.LensEngine" />
+    </Match>
+    <Match>
+        <Package name="com.mlkit.sample.activity" />
+    </Match>
+    <Match>
+        <Package name="com.mlkit.sample.camera" />
+    </Match>
+    <Match>
+        <Package name="com.mlkit.sample.glide" />
+    </Match>
+    <Match>
+        <Package name="com.mlkit.sample.util" />
+    </Match>
+    <Match>
+        <Package name="com.mlkit.sample.views.graphic" />
+    </Match>
+    <Match>
+        <Package name="com.mlkit.sample.views.overlay" />
+    </Match>
+    <Match>
+        <Class name="com.mlkit.sample.phototranslate.RemoteTranslateActivity$SortComparator" />
+    </Match>
+    <!--
+    <Match>
+      <Class name="com.huawei.oms.mopkg.deploytool.Launcher" />
+      <Method name="print" />
+      <Bug pattern="NP_ALWAYS_NULL" />
+    </Match>
+    -->
+</FindBugsFilter>

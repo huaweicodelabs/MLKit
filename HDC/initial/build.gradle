@@ -1,0 +1,38 @@
+buildscript {
+    repositories {
+        google()
+        jcenter()
+        maven { url 'https://developer.huawei.com/repo/' }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.3.2'
+        classpath 'com.huawei.agconnect:agcp:1.0.0.300'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven { url 'https://developer.huawei.com/repo/' }
+    }
+}
+
+ext {
+    //sdk发布版本号
+    build_versionCode = '10002300'
+    build_versionName = '1.0.2.300'
+}
+
+//sdk
+if (null != System.getenv('build_versionCode') && (!System.getenv('build_versionCode').isEmpty())) {
+    ext.build_versionCode = System.getenv('build_versionCode')
+}
+
+if (null != System.getenv('releaseVersion') && (!System.getenv('releaseVersion').isEmpty())) {
+    ext.build_versionName = System.getenv('releaseVersion')
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

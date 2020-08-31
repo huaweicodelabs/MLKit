@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CodeCheckSettings">
+    <option name="findBugsCommand" value="gradle assemble&#10;del findbugs-result.xml &gt;nul 2&gt;&amp;1&#10;%TOOLS%\findbugs\bin\findbugs -jvmArgs &quot;-Xms128m -Xmx1024m&quot; -home %TOOLS%\findbugs -effort:max -low -sortByClass -nested:false -xml:withMessages -output findbugs-result.xml -textui ." />
+    <option name="findBugsResultFile" value="findbugs-result.xml" />
+  </component>
+</project>

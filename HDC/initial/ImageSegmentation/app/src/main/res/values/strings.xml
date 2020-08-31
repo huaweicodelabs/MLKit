@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ImageSegmentation</string>
+    <string name="select_picture">Select Picture</string>
+    <string name="cut">Cut</string>
+    <string name="replace_background">Background</string>
+    <string name="save">Save</string>
+    <string name="please_select_picture">Please select a picture to process~</string>
+    <string name="click_add_picture">Click to add picture~</string>
+    <string name="no_pic_neededSave">Null Image needed to save</string>
+    <string name="cut_success">Cut success</string>
+    <string name="save_success">Save success</string>
+    <string name="permissions">Please grant related permissions.</string>
+    <string name="setting">Setting</string>
+</resources>
