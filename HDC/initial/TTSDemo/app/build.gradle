@@ -5,6 +5,7 @@ android {
     buildToolsVersion "29.0.3"
 
     defaultConfig {
+        // todo step 8：set applicationId.
         applicationId "com.huawei.mlkit.ttsdemo"
         minSdkVersion 21
         targetSdkVersion 29
