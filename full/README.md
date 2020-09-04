@@ -27,5 +27,5 @@
     Devices with Android 4.4 or later are recommended.
 
 ##  License
-    The face detection sample of HUAWEI ML Kit has obtained the [Apache 2.0 license](http://www.apache.org/licenses/LICENSE-2.0).
+    The face detection sample of HUAWEI ML Kit has obtained the [Apache 2.0 license](https://www.apache.org/licenses/LICENSE-2.0).
 

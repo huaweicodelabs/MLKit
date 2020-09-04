@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  MLProductVisualSearchDemo
+
+  Created by user on 2020/6/20.
+  Copyright © 2020 Huawei Technologies Co., Ltd. 2020-2028. All rights reserved.
+*/
+
+"相机" = "相机";
+"相册" = "相册";
+"批量加载" = "批量加载";
+"版本" = "版本";
+"未知错误" = "未知错误";
+"相似商品" = "相似商品";
+
+
