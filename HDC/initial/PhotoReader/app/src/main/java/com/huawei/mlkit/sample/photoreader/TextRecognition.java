@@ -34,7 +34,7 @@ public class TextRecognition {
     private static int TEXT_LENGTH = 4999;
     private static final int INIT_VALUE = 0;
     private Context mContext;
-    private Bitmap mBitmap;
+    private Bitmap originBitmap;
     private String mSourceText;
     private EditText mEdText;
     private MLTextAnalyzer textAnalyzer;
@@ -45,7 +45,7 @@ public class TextRecognition {
 
     public TextRecognition(Context context, Bitmap originBitmap, String sourceText, EditText mEd_text) {
         this.mContext = context;
-        this.mBitmap = originBitmap;
+        this.originBitmap = originBitmap;
         this.mSourceText = sourceText;
         this.mEdText = mEd_text;
         // todo step 5: add on-device text analyzer
@@ -54,10 +54,10 @@ public class TextRecognition {
 
 
     public void startTextAnalyzer() {
-        if (this.isChosen(this.mBitmap)) {
+        if (this.isChosen(this.originBitmap)) {
             // todo step 6: initial mlFrame
 
-            //  todo step 7: add on-device task
+            // todo step 7: add on-device task
 
             task.addOnSuccessListener(new OnSuccessListener<MLText>() {
 
@@ -65,7 +65,7 @@ public class TextRecognition {
                 public void onSuccess(MLText mlText) {
                     if (mlText != null) {
                         // todo step 8: result
-                        mSourceText = mlText.getStringValue();
+
                         if (mSourceText.length() > TEXT_LENGTH) {
                             mEdText.setText(mSourceText.substring(INIT_VALUE, TEXT_LENGTH));
                         } else {

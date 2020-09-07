@@ -63,7 +63,7 @@ public class TextTranslation {
                     translateText = text;
                     if (callback != null) {
                         // todo step 11: Translator result
-                        callback.onSuccess(translateText);
+
                     }
                 } else {
                     if (callback != null) {
