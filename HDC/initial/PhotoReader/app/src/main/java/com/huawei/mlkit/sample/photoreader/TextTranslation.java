@@ -51,8 +51,10 @@ public class TextTranslation {
     }
 
     public void createRemoteTranslator() {
-        // todo step 9: add Translator analyzer
 
+        // todo step 9: add Translator analyzer
+        
+        translator = MLTranslatorFactory.getInstance().getRemoteTranslator(setting);
         String mText = mEdText.getText().toString().trim();
         // todo step 10: add Translator task
 
