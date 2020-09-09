@@ -165,7 +165,6 @@ public class ReadPhotoActivity extends AppCompatActivity {
                 } else {
                     // todo step 16: speak
                     mlTtsEngine.speak(SpeakText, MLTtsEngine.QUEUE_APPEND);
-
                     Toast.makeText(ReadPhotoActivity.this.getApplicationContext(),
                             R.string.read_start, Toast.LENGTH_SHORT).show();
                 }
