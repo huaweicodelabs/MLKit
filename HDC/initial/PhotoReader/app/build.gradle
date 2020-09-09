@@ -5,8 +5,8 @@ android {
     buildToolsVersion "28.0.3"
 
     defaultConfig {
-        // todo step 17£º set applicationId.
-        applicationId "com.huawei.mlkit.sample.photo.reader"
+        // todo step 17: set applicationId.
+        
         minSdkVersion 19
         targetSdkVersion 29
         versionCode 1
