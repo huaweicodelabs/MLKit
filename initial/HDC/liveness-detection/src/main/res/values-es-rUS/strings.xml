@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name" translatable="false">Interactive Living Detection</string>
+    <string name="action_settings" translatable="false">Settings</string>
+
+    <!--demo-->
+    <string name="start_detection" translatable="false">Start the Detection</string>
+    <string name="custom_ui_switchover" translatable="false">Customizing the interface</string>
+    <string name="action_detection" translatable="false">Interactive Living Detection</string>
+    <string name="detection_failed" translatable="false">Detection failed</string>
+    <string name="failure_cause" translatable="false">Failure Cause</string>
+    <string name="retest" translatable="false">Retest</string>
+    <string name="exit" translatable="false">exit</string>
+    <string name="exit_tip" translatable="false">Press again to exit the program</string>
+    <string name="detection_result" translatable="false">Detection Result</string>
+    <string name="detection_is_underway" translatable="false">Detection is in progress</string>
+    <string name="guide_detection_is_succeeded" translatable="false">Boot detection succeeded</string>
+
+    <!--sdk-->
+    <string name="shake_down" translatable="false">Please nod your head</string>
+    <string name="open_mouth" translatable="false">Please open your mouth</string>
+    <string name="eye_close" translatable="false">Please blink</string>
+    <string name="shake_left" translatable="false">Please shake your head to the left</string>
+    <string name="shake_right" translatable="false">Please shake your head to the right</string>
+    <string name="eye_gazed" translatable="false">Please look at the screen for a while</string>
+    <string name="detection_passed" translatable="false">Pass the verification</string>
+    <string name="no_real_face" translatable="false">Failed to pass face detection</string>
+    <string name="no_face" translatable="false">Please move the phone</string>
+    <string name="action_correct" translatable="false">The action is correct</string>
+    <string name="detection_timeout" translatable="false">Detection timeout</string>
+    <string name="poor_light" translatable="false">Detect poor ambient light</string>
+    <string name="blurry_image" translatable="false">Blurry image</string>
+    <string name="should_be_consistent" translatable="false">Please adjust the phone direction</string>
+    <string name="face_offset" translatable="false">Adjust the phone</string>
+    <string name="big_face" translatable="false">Move the phone a little away</string>
+    <string name="small_face" translatable="false">Please come closer</string>
+    <string name="eyes_blocked" translatable="false">Please do not cover your eyes</string>
+    <string name="mouth_blocked" translatable="false">Please do not cover your face</string>
+    <string name="action_collision" translatable="false">Action error. Follow the prompts</string>
+    <string name="action_unknown" translatable="false">Unknown action</string>
+    <string name="interactive_liveness_detection" translatable="false">Interactive liveness detection</string>
+    <string name="multi_faces" translatable="false">Multiple users enter the detection environment</string>
+    <string name="image_quality_poor" >Please face the screen with your eyes open and your lips closed</string>
+
+    <!--Beta-->
+    <string name="agree" translatable="false">agree</string>
+    <string name="un_agree" translatable="false">cancel</string>
+    <string name="masking_face" translatable="false">face mask</string>
+    <string name="masking_face_switchover" translatable="false">experience feedback</string>
+    <string name="know" translatable="false">I am aware of the above statement</string>
+    <string name="feedback" translatable="false">feedback</string>
+
+</resources>

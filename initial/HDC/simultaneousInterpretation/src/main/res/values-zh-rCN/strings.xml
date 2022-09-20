@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">同声传译</string>
+    <string name="recognitionHint" translatable="true">识别内容将展示在这里...</string>
+    <string name="startRecognitionBtn" translatable="true">开始识别</string>
+    <string name="finishRecognitionBtn" translatable="true">结束识别</string>
+    <string name="contentShow">展示内容</string>
+    <string name="voicePlay">语音播报</string>
+    <string name="chinese">中文</string>
+    <string name="english">英文</string>
+    <string name="asrtext">"语音文本 "</string>
+    <string name="notBroadcast">"无播报 "</string>
+    <string name="chineseMaleVoice">"男声"</string>
+    <string name="chineseFemaleVoice">"女声"</string>
+    <string name="englishMaleVoice">"男声"</string>
+    <string name="englishFemaleVoice">"女声"</string>
+    <string name="asrText">"语音文本"</string>
+    <string name="asrTextAndTranslation">"语音文本与翻译文本"</string>
+    <string name="cancel">"取消"</string>
+    <string name="permissionStr">请前往手机设置开启存储和录音权限。</string>
+</resources>

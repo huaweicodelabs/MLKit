@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fl_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:fitsSystemWindows="true"
+    android:minHeight="480dp">
+
+    <RelativeLayout
+        android:id="@+id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/background">
+
+        <RelativeLayout
+            android:id="@+id/layout_back"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="0dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <ImageView
+                android:id="@+id/img_back"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="24dp"
+                android:contentDescription="@string/mlkit_liveness_detect_backIcon"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_public_back" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@+id/layout_back"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <com.huawei.hms.mlkit.vision.livenessdetection.test.ui.MediumBoldTextView
+                android:id="@+id/tv_title"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="12dp"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:gravity="left|start"
+                android:text="@string/mlkit_liveness_detect_name"
+                android:textColor="@color/textcolor"
+                android:textSize="20sp"
+                tools:ignore="RtlHardcoded" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/surface_layout"
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:layout_marginTop="156dp"
+        android:layout_centerHorizontal="true"
+        android:minHeight="480dp">
+
+    </FrameLayout>
+
+    <com.huawei.hms.mlkit.vision.livenessdetection.test.ui.CircleView
+        android:id="@+id/masking_view"
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:layout_marginTop="156dp"
+        android:layout_centerHorizontal="true"
+        android:minHeight="480dp" />
+
+    <com.huawei.hms.mlkit.vision.livenessdetection.test.ui.MaskingFaceView
+        android:id="@+id/masking_face_view"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:layout_marginTop="156dp"
+        android:layout_centerHorizontal="true"
+        android:minHeight="480dp" />
+
+    <com.huawei.hms.mlkit.vision.livenessdetection.test.ui.MediumBoldTextView
+        android:id="@+id/tipTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tool_bar"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:background="@color/background"
+        android:text="@string/mlkit_liveness_detect_tips"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/masking_view"
+        android:layout_marginTop="0dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:orientation="horizontal">
+
+        <com.huawei.hms.mlkit.vision.livenessdetection.test.ui.MediumBoldTextView
+            android:id="@+id/masking_face_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:text="@string/masking_face"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <Switch
+            android:id="@+id/masking_face_switchover"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@null"
+            android:layout_weight="1"
+            android:thumb="@drawable/switch_thumb"
+            android:track="@drawable/switch_track"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    </LinearLayout>
+
+</RelativeLayout>

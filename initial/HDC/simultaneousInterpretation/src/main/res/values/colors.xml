@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="defaultColor">#000000</color>
+    <color name="clickColor">#7f7f7f</color>
+    <color name="common_line_color">#D9D9D9</color>
+    <color name="primary_text_color">#A9A9A9</color>
+    <color name="secondary_text_color">#626262</color>
+    <color name="text_color">#1d1d1d</color>
+    <color name="logo_background">#003853</color>
+    <color name="primary_background">#f2f2f2</color>
+    <color name="button_background">#5CACEE</color>
+    <color name="white">#ffffff</color>
+    <color name="pop_bg">#ffffff</color>
+    <color name="btncolor">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="color_red_card">#FFFA2A2D</color>
+    <color name="color_red_cancel">#EE6A50</color>
+    <color name="color_result">#333333</color>
+    <color name="color_orange">#FF8000</color>
+    <color name="item_select_color">#E3FAE3</color>
+    <color name="line_color">#E4E4E4</color>
+    <color name="translucent_white_100">#00FFFFFF</color>
+
+
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="font_black">#FF333333</color>
+    <color name="font_light">#FF999999</color>
+    <color name="ui_dark_blue">#FF0000FF</color>
+    <color name="ui_grass_green">#FF89AC1D</color>
+
+    <color name="colorPrimary">@color/colorActivated</color>
+    <color name="colorPrimaryDark">@color/colorActivated</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="blue">#00a3e7</color>
+    <color name="black_9">#999999</color>
+    <color name="activity_bg">#f2f2f2</color>
+    <color name="line_bg">#f2f2f2</color>
+    <color name="color_grey">#99ffffff</color>
+<!--    <color name="activity_bg">#1A000000</color>-->
+
+    <color name="textColorPrimaryActivated">#0A59F7</color>
+    <color name="emui_functional_blue_translucent">#5291FF</color>
+    <color name="btn_bg">@color/colorActivated</color>
+    <color name="colorActivated">#0A59F7</color>
+    <color name="bg_color">#0A59F7</color>
+    <color name="btnClickBg">#ED6F21</color>
+</resources>

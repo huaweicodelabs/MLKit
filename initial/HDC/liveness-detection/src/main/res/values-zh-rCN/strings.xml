@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name" translatable="false">交互式活体检测</string>
+    <string name="action_settings" translatable="false">Settings</string>
+
+    <!--demo-->
+    <string name="start_detection" translatable="false">开始检测</string>
+    <string name="custom_ui_switchover" translatable="false">自定义界面</string>
+    <string name="action_detection" translatable="false">交互式活体检测</string>
+    <string name="detection_failed" translatable="false">验证失败</string>
+    <string name="failure_cause" translatable="false">失败原因</string>
+    <string name="retest" translatable="false">重新检测</string>
+    <string name="exit" translatable="false">退出</string>
+    <string name="exit_tip" translatable="false">再按一次退出应用</string>
+    <string name="detection_result" translatable="false">检测结果</string>
+    <string name="detection_is_underway" translatable="false">检测正在进行</string>
+    <string name="guide_detection_is_succeeded" translatable="false">引导检测成功</string>
+    <string name="mlkit_liveness_detect_name" priority="translator">活体检测</string>
+
+    <!--sdk-->
+    <string name="shake_down" translatable="false">请缓慢点头</string>
+    <string name="open_mouth" translatable="false">请缓慢张嘴</string>
+    <string name="eye_close" translatable="false">请缓慢眨眼</string>
+    <string name="shake_left" translatable="false">请缓慢向左摇头</string>
+    <string name="shake_right" translatable="false">请缓慢向右摇头</string>
+    <string name="eye_gazed" translatable="false">请注视并保持稳定</string>
+    <string name="detection_passed" translatable="false">验证通过</string>
+    <string name="no_real_face" translatable="false">失败可能原因\n\n 1.非活体\n 2.光线太亮或太暗\n 3.逆光场景\n 4.动作幅度过大\n\n 请换个场景试一下</string>
+    <string name="no_face" translatable="false">请露出正脸</string>
+    <string name="action_correct" translatable="false">动作正确</string>
+    <string name="detection_timeout" translatable="false">检测超时</string>
+    <string name="poor_light" translatable="false">检测环境光线不佳</string>
+    <string name="blurry_image" translatable="false">图像模糊</string>
+    <string name="should_be_consistent" translatable="false">请调整手机方向</string>
+    <string name="face_offset" translatable="false">请保持脸在检测框内</string>
+    <string name="big_face" translatable="false">请将手机远离一点</string>
+    <string name="small_face" translatable="false">请将手机靠近一点</string>
+    <string name="eyes_blocked" translatable="false">请不要遮挡眼睛</string>
+    <string name="mouth_blocked" translatable="false">请不要遮挡面部</string>
+    <string name="action_collision" translatable="false">动作错误</string>
+    <string name="action_unknown" translatable="false">未知动作</string>
+    <string name="interactive_liveness_detection" translatable="false">交互式活体检测</string>
+    <string name="multi_faces" translatable="false">多人进入检测环境</string>
+    <string name="image_quality_poor" >请正对屏幕，双眼睁开，双唇闭合</string>
+
+    <!--Beta-->
+    <string name="agree" translatable="false">同意</string>
+    <string name="un_agree" translatable="false">取消</string>
+    <string name="masking_face" translatable="false">面部蒙版</string>
+    <string name="masking_face_switchover" translatable="false">体验反馈</string>
+    <string name="know" translatable="false">我已知悉上述声明</string>
+    <string name="feedback" translatable="false">反馈</string>
+
+</resources>

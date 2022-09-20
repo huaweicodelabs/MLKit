@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name" translatable="true">simultaneous interpretation</string>
+    <string name="recognitionHint" translatable="true">recognition content will be displayed here...</string>
+    <string name="startRecognitionBtn" translatable="true">start to identify</string>
+    <string name="finishRecognitionBtn" translatable="true">end recognition</string>
+    <string name="contentShow" ranslatable="true">Displayed content</string>
+    <string name="voicePlay" ranslatable="true">Speech broadcast</string>
+    <string name="chinese">Chinese</string>
+    <string name="english">English</string>
+    <string name="asrtext">"Speech text "</string>
+    <string name="notBroadcast">"No broadcast "</string>
+    <string name="chineseMaleVoice">"Male voice"</string>
+    <string name="chineseFemaleVoice">"Female voice"</string>
+    <string name="englishMaleVoice">"Male voice"</string>
+    <string name="englishFemaleVoice">"Female voice"</string>
+    <string name="asrText">"Speech text"</string>
+    <string name="asrTextAndTranslation">"Speech text and translated text"</string>
+    <string name="cancel">"cancel"</string>
+    <string name="permissionStr">Go to Settings on your phone to enable storage and recording permissions.</string>
+</resources>

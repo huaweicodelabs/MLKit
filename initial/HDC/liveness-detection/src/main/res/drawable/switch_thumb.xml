@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <size
+        android:width="20dp"
+        android:height="20dp">
+    </size>
+
+    <path
+        android:pathData="M26,10m-8,0a8,8 0,1 1,16 0a8,8 0,1 1,-16 0"
+        android:strokeWidth="1"
+        android:fillColor="#FFFFFF"
+        android:fillType="evenOdd"
+        android:strokeColor="#00000000"/>
+
+    <!--<solid
+        android:color="@android:color/white">
+    </solid>-->
+
+    <!--<stroke
+        android:width="9pt"
+        android:color="@color/transparent" />-->
+
+</shape>
