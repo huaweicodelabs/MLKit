@@ -1,2 +1,4 @@
 include ':app'
-rootProject.name='FaceDemo'
+include ':HDC:liveness-detection'
+include ':HDC:simultaneousInterpretation'
+//rootProject.name='FaceDemo'
