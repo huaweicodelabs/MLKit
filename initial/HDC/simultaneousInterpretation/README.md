@@ -24,8 +24,10 @@
 	JDK 1.8.211及以上
 	Gradle 4.6及以上（推荐）
 	
-## Configuration 
-    要在示例中使用包提供相关APi，需要在agconnect-services.json中配置相关参数。
+## Configuration
+    如果您还没有注册成为开发者，请在[AppGalleryConnect上注册并创建应用](https://developer.huawei.com/consumer/cn/service/josp/agc/index.html)。
+    `agconnect-services.json`文件请从[华为开发者社区](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/config-agc-0000001050990353)网站申请获取。
+    将agconnect-services.json拷贝至工程根目录。
 
 	以下描述了agconnect-services.json中的参数。
 
