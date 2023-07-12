@@ -1,0 +1,21 @@
+{
+  "devices": {
+    "general": [
+      "phone",
+      "tablet"
+    ]
+  },
+  "development": {
+    "addedSysCaps": [
+      "SystemCapability.Ai.AiEngine",
+      "SystemCapability.Ai.TextRecognition"
+    ]
+  },
+  "production": {
+    "addedSysCaps": [
+       "SystemCapability.Ai.AiEngine",
+       "SystemCapability.Ai.TextRecognition"
+    ],
+    "removedSysCaps": []
+  }
+}
