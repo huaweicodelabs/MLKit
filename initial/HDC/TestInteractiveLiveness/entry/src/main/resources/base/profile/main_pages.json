@@ -1,8 +1,0 @@
-{
-  "src": [
-    "pages/InteractivelivenessTest",
-    "pages/SuccessPage",
-    "pages/FailPage",
-    "pages/LivenessIndex"
-  ]
-}
